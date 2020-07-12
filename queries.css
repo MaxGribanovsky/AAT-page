@@ -1,0 +1,167 @@
+@media (min-width: 576px) { ... }
+
+@media (min-width: 300px) and (max-width: 739px) {
+    h1 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 120%;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 80%;
+    }
+
+
+/*MOBILE MENU  */
+
+    .logo-box {
+        width: 100px;
+    }
+
+    .logo-box img {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .nav-bar li {
+        display: none;
+    }
+
+    .menu-burger {
+        display: inline-block;
+        color: #eb2f06;
+        font-size: 200%;
+    }
+
+    .mob-nav-bar ul {
+        background-image: linear-gradient(#eb3006dc,#eb3006ed);
+        width: 50%;
+        min-width: 200px;
+        margin-right: 20%;
+        float: right;
+        border-radius: 1px;
+        padding-bottom: 5px;
+    }
+
+    .mob-nav-bar li {
+        display: block;
+        text-align: right;
+        font-size: 130%;
+        padding-bottom: 5px;
+    }
+
+    /*
+    .mob-nav-bar li a:hover, .nav-bar li a:active {
+        color:  #0c2461;
+        text-decoration: none;
+        font-size: 90%;
+        transition: color 0.5s;
+        */
+
+    .invisible {
+        display: none;
+    }   
+
+/*MOBILE MENU END */
+
+    .general-row {
+        height: 60px;
+    }
+
+    .general-box p{
+        font-size: 80%;
+    }
+
+    .general-box-number {
+        font-size: 180%;
+    }
+
+    .row {
+        width: 95%;
+    }
+
+    .what-we-do-flex-container {
+        display: block;
+    }
+
+    .sustainability-text {
+        padding: 10px;
+    }
+
+    .project-container {
+        display: block;
+        
+    }
+
+
+    .project-box {
+        margin: 10px 10px;
+    }
+
+    
+    .project-box-img-box {
+        height: 200px;
+    }
+
+
+
+
+}
+
+
+
+@media (min-width: 740px) and (max-width: 992px) {
+    
+    h1 {
+        font-size: 200%;
+    }
+    
+    h2 {
+        font-size: 150%;
+        margin: 20px 0 20px 0;
+    }
+
+    h2:after {
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    .nav-bar li {
+        font-size: 90%;
+        margin-right: 20px;
+    }
+
+    .general-row {
+        height: 80px;
+    }
+
+
+    .general-box-number {
+        font-size: 200%;
+    }
+
+    .project-box {
+        margin: 10px 10px;
+    }
+
+    .row {
+        width: 95%;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1200px) { ... }
