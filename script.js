@@ -50,5 +50,8 @@ $('.menu-burger').click(function() {
 })
 
 $('li').click(function() {
-  $('.mob-nav-bar').toggleClass('invisible', 1000)
+  if (window.matchMedia("(max-width: 739px)").matches) {
+    $('.mob-nav-bar').toggleClass('invisible', 1000)
+  }
+  
 })
