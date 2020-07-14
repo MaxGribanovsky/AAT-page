@@ -166,7 +166,7 @@ h4 {
 }
 
 .logo-box {
-        flex: ;
+        flex: 1;
         height: 50px;
         padding: auto;
         
@@ -243,8 +243,9 @@ h4 {
 }
 
 .general-row {
-    width: 60%;
+    width: 70%;
     min-width: 350px;
+    max-width: 900px;
     margin: auto auto 30px auto;  
     display: flex;
     height: 120px;
@@ -262,8 +263,16 @@ h4 {
     color:#eb2f06 ;
 }
 
+.row {
+    width: 70%;
+    max-width: 900px;
+    display: flex;
+    margin-bottom: 30px;
+    text-align: justify;
+    margin: 0 auto 20px auto;
+}
 
-/****WHAT WE DO*****/
+    /****WHAT WE DO*****/
 
 
 .what-we-do {
@@ -274,7 +283,7 @@ h4 {
 
 
 .what-we-do-flex-container {
-    width: 80%;
+    width: 70%;
     max-width: 900px;
     min-height: 200px;
     height: auto;
@@ -338,7 +347,8 @@ h4 {
     color: blue;
     margin: auto;
     height: auto;
-    width: auto;
+    width: 90%;
+    max-width: 900px;
     word-spacing: 10px;
     text-align: justify;
     border-radius: 2px;
@@ -365,7 +375,7 @@ h4 {
 }
 
 .project-box    {
-    max-width: 1200px;
+    max-width: 900px;
     flex: 1;
     margin: 10px 30px;
     border: 1px solid  #0c2461;
@@ -396,11 +406,11 @@ h4 {
 }
 
 .project-text-box {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 .btn-box {
-    text-align: right;
+    text-align: left;
 }
 
 /* -------------------------- */
@@ -412,14 +422,6 @@ h4 {
 }
 
 
-.row {
-    width: 70%;
-    display: flex;
-    margin-bottom: 30px;
-    text-align: justify;
-    margin: 0 auto 20px auto;
-        
-}
 
 .col1 {
     flex: 30;
