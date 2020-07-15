@@ -166,9 +166,9 @@ h4 {
 }
 
 .logo-box {
-        flex: 1;
-        height: 50px;
-        padding: auto;
+    flex: ;
+    height: 50px;
+    padding: auto;
         
         
 }
@@ -272,6 +272,9 @@ h4 {
     margin: 0 auto 20px auto;
 }
 
+
+
+
     /****WHAT WE DO*****/
 
 
@@ -287,7 +290,6 @@ h4 {
     max-width: 900px;
     min-height: 200px;
     height: auto;
-    margin: 0 auto;
     background-color: white;
     display: flex;
     margin: 0 auto 80px auto;

@@ -34,7 +34,7 @@
     .menu-burger {
         display: inline-block;
         color: #eb2f06;
-        font-size: 200%;
+        font-size: 270%;
     }
 
     .mob-nav-bar ul {
@@ -68,8 +68,16 @@
 
 /*MOBILE MENU END */
 
+    .slogan {
+        width: 90%;
+        top: 50vh;
+    }
+
+
+
     .general-row {
         height: 60px;
+        width: 90%;
     }
 
     .general-box p{
@@ -81,11 +89,25 @@
     }
 
     .row {
-        width: 95%;
+        width: 90%;
     }
 
     .what-we-do-flex-container {
         display: block;
+        width: 90%;
+    }
+
+    .flex-text-box {
+        padding: 10px 10px;
+    }
+
+    .flex-img-box {
+        margin: 0 0 0 0;
+    }
+
+    .img-box  img {
+        width: 100%;
+        height: auto;
     }
 
     .sustainability-text {
@@ -140,6 +162,7 @@
 
     .general-row {
         height: 80px;
+        width: 80%;
     }
 
 
@@ -147,12 +170,33 @@
         font-size: 200%;
     }
 
+    .what-we-do-flex-container {
+        display: block;
+        width: 90%;
+    }
+
+    .flex-text-box {
+        padding: 10px 10px;
+    }
+
+    .flex-img-box {
+        margin: 0 0 0 0;
+    }
+
+    .img-box  img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
     .project-box {
         margin: 10px 10px;
     }
 
     .row {
-        width: 95%;
+        width: 80%;
     }
 
 
