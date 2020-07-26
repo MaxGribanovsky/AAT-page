@@ -1,6 +1,13 @@
 @media (min-width: 576px) {  }
 
 @media (min-width: 300px) and (max-width: 739px) {
+    
+    html {
+         color: #0c2461;
+    }
+   
+   
+   
     h1 {
         font-size: 150%;
     }
@@ -37,10 +44,12 @@
         font-size: 270%;
     }
 
+    
+
     .mob-nav-bar ul {
         background-image: linear-gradient(#eb3006dc,#eb3006ed);
         width: 50%;
-        min-width: 200px;
+        min-width: 180px;
         margin-right: 20%;
         float: right;
         border-radius: 1px;
@@ -70,7 +79,7 @@
 
     .slogan {
         width: 90%;
-        top: 50vh;
+        top: 35vh;
     }
 
 

@@ -213,10 +213,12 @@ h4 {
 
 
 .slogan {
-    width: 40vw;
+    width: 50vw;
     text-align: left;
     display: block;
     position: absolute;
+    text-transform: uppercase;
+    word-spacing: 5px;
     top: 40vh;
     margin-left: 7%;
 }
@@ -255,10 +257,14 @@ h4 {
     flex:1; 
 }
 
+.general-box-head {
+    min-height: 33px;
+}
+
 .general-box-number {
     height: 65%;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0px;
     font-size: 350%;
     color:#eb2f06 ;
 }
